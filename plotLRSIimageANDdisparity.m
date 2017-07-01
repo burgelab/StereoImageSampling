@@ -1,8 +1,8 @@
 function plotLRSIimageANDdisparity(LimgCrp,RimgCrp,LdspCrp,RdspCrp,dspRms,ttl)
-
+%
 % function plotLRSIimageANDdisparity(LimgCrp,RimgCrp,LdspCrp,RdspCrp,dspRms,ttl)
 %
-%   example call:
+% Example call: load('LRSItestImg02.mat'); [LimgCrp, RimgCrp, ~,~] = LRSIcropStereoPatch([805 1119],[805 1160],Limg,Rimg,Lxyz,Rxyz,[250 250],0); plotLRSIimageANDdisparity(LimgCrp,RimgCrp,[],[],[],'Test Stereo-image Patch');
 %
 % plots LE & RE image patches, and disparity patches if passed
 %

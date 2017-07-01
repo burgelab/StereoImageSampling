@@ -1,6 +1,8 @@
 function plotLRSIcorrespondingPoints(LitpRC,RitpRC,Limg,Rimg,Lrng,Rrng,bIndGd)
-
+%
 % function plotLRSIcorrespondingPoints(LitpRC,RitpRC,Limg,Rimg,Lrng,Rrng,bIndGd)
+%
+% Example call: load('LRSItestImg02.mat'); plotLRSIcorrespondingPoints([[587,873.0346];[407,376.5210]],[[587,916.9654];[407,439.4789]],Limg,Rimg,Lrng,Rrng,logical([1;0])); % one good corresponding point and one bad corresponding point
 %
 % sampled corresponding points on stereo-image and range images 
 % yellow dots -> good points; red dots -> bad points
