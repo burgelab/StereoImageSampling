@@ -7,9 +7,9 @@ distance measurements.
 
 Code is provided for the binocular corresponding-point sampling and interpolation 
 procedure described in the paper:
-	Arvind Iyer & Johannes Burge (submitted)
-	"The Effect of Depth Variation on Disparity Tasks in Natural Scenes"
-	Journal of Vision
+	Arvind Iyer & Johannes Burge (2018)
+	"Depth variation and stereo processing tasks in natural scenes".
+	Journal of Vision. 18(6):4, 1-22.
 
 
 This repository also includes two example stereo-images with co-registered distance 
